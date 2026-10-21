@@ -9,9 +9,11 @@
   <meta name="description" content="학생 학습 교실과 교사 관리자 화면으로 이동하는 문해력 성장 교실 첫 화면입니다.">
   <style>
     :root{--ink:#302636;--deep:#241c2c;--plum:#463048;--paper:#fbf6ef;--warm:#f4e7d4;--gold:#bf8254;--mint:#5e897e;--line:#e7d9cb;--muted:#766879;--shadow:0 18px 55px rgba(33,22,35,.12)}
+    @font-face{font-family:ClassicKorean;src:url("assets/classic-korean.4a4e1782.woff") format("woff");font-style:normal;font-weight:400;font-display:swap}
     *{box-sizing:border-box}
     html{min-height:100%;-webkit-text-size-adjust:100%;scroll-behavior:smooth}
-    body{margin:0;min-height:100vh;min-height:100dvh;font-family:system-ui,-apple-system,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;color:var(--ink);background:radial-gradient(circle at 95% 5%,#eddecf 0,transparent 35%),radial-gradient(circle at 0% 85%,#e0e9e1 0,transparent 33%),#f7f1e9}
+    body{margin:0;min-height:100vh;min-height:100dvh;font-family:ClassicKorean,Georgia,serif;color:var(--ink);background:radial-gradient(circle at 95% 5%,#eddecf 0,transparent 35%),radial-gradient(circle at 0% 85%,#e0e9e1 0,transparent 33%),#f7f1e9}
+    button,input,select,textarea{font-family:inherit}
     a{color:inherit}
     a:focus-visible{outline:4px solid #126f82;outline-offset:4px}
     .page{width:min(1140px,calc(100% - 48px));margin:0 auto;padding:30px 0 28px;min-height:100vh;min-height:100dvh;display:flex;flex-direction:column}
