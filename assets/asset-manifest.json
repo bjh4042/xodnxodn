@@ -1,0 +1,129 @@
+{
+  "version": "2.1",
+  "assets": [
+    {
+      "filename": "fa-brands-400.74833209.woff2",
+      "mime_type": "font/woff2",
+      "bytes": 108020,
+      "sha256": "748332090c4b8e20f95d0ff59f0be20fa9c889359d3b36d4b886d73376054207",
+      "references": [
+        {
+          "file": "gas/Student.html",
+          "original_uri_bytes": 144051
+        },
+        {
+          "file": "gas/Student.html",
+          "original_uri_bytes": 144051
+        },
+        {
+          "file": "gas/Student.html",
+          "original_uri_bytes": 144051
+        }
+      ]
+    },
+    {
+      "filename": "fa-regular-400.8e7e5ea1.woff2",
+      "mime_type": "font/woff2",
+      "bytes": 24948,
+      "sha256": "8e7e5ea1b15f62ab14dbd41768e8fbcd21cc859a4ea5da812457ee714299fb35",
+      "references": [
+        {
+          "file": "gas/Student.html",
+          "original_uri_bytes": 33287
+        },
+        {
+          "file": "gas/Student.html",
+          "original_uri_bytes": 33287
+        },
+        {
+          "file": "gas/Student.html",
+          "original_uri_bytes": 33287
+        }
+      ]
+    },
+    {
+      "filename": "fa-solid-900.7152a693.woff2",
+      "mime_type": "font/woff2",
+      "bytes": 150124,
+      "sha256": "7152a6933ee3d690ec2af3d09da9d701723d16aa3410a6d80f28ff8866f3b880",
+      "references": [
+        {
+          "file": "gas/Student.html",
+          "original_uri_bytes": 200191
+        },
+        {
+          "file": "gas/Student.html",
+          "original_uri_bytes": 200191
+        },
+        {
+          "file": "gas/Student.html",
+          "original_uri_bytes": 200191
+        }
+      ]
+    },
+    {
+      "filename": "fa-v4compatibility.694a17c3.woff2",
+      "mime_type": "font/woff2",
+      "bytes": 4564,
+      "sha256": "694a17c3d9d6c05f8aac63c544615552a4b220e9a4de863d87341a6bcfc1bc8d",
+      "references": [
+        {
+          "file": "gas/Student.html",
+          "original_uri_bytes": 6111
+        }
+      ]
+    },
+    {
+      "filename": "room.2ae93586.webp",
+      "mime_type": "image/webp",
+      "bytes": 2104296,
+      "sha256": "2ae9358665715c3b68652ea6fa118c9c7f05f80069bba4ff225f1176c3617827",
+      "references": [
+        {
+          "file": "gas/Student.html",
+          "original_uri_bytes": 2805751
+        }
+      ]
+    },
+    {
+      "filename": "classic-korean.4a4e1782.woff",
+      "mime_type": "font/woff",
+      "bytes": 1041180,
+      "sha256": "4a4e178260899581d32e5d8c395e254303b75763817437f8977d2ce961cec090",
+      "references": [
+        {
+          "file": "gas/Student.html",
+          "original_uri_bytes": 1388262
+        },
+        {
+          "file": "gas/Admin.html",
+          "original_uri_bytes": 1388262
+        }
+      ]
+    },
+    {
+      "filename": "portrait.6da3f864.webp",
+      "mime_type": "image/webp",
+      "bytes": 854812,
+      "sha256": "6da3f86469be526f88f8646fadf6714a7d972cc6a8f286d870560e7bfe512199",
+      "references": [
+        {
+          "file": "gas/Student.html",
+          "original_uri_bytes": 1139775
+        }
+      ]
+    },
+    {
+      "filename": "classroom.83c8feaa.webp",
+      "mime_type": "image/webp",
+      "bytes": 2276688,
+      "sha256": "83c8feaac622065bb2c40770a34347188967d4270ecea421f80d363956330091",
+      "references": [
+        {
+          "file": "gas/Student.html",
+          "original_uri_bytes": 3035607
+        }
+      ]
+    }
+  ]
+}
