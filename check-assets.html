@@ -17,7 +17,7 @@
 </head>
 <body>
 <main>
-  <div class="eyebrow">다희와 준희의 문해력 성장 교실 · V2.1</div>
+  <div class="eyebrow">남양초등학교 문해력 성장 교실 · V2.3.4</div>
   <h1>화면 파일을 연결해 주세요</h1>
   <p>이 주소는 교실 화면에 사용하는 그림과 글꼴을 제공합니다. 학생과 선생님은 설정을 마친 <strong>Apps Script 웹 앱 주소</strong>로 접속합니다.</p>
   <section class="card">
@@ -30,8 +30,8 @@
   </section>
   <section class="card">
     <h2>2. 업로드한 파일 점검하기</h2>
-    <p class="muted">그림 3개와 글꼴 5개를 읽어 파일 크기와 SHA-256이 원본과 같은지 확인합니다. 약 6.6MB를 읽으며 학생 기록에는 접근하지 않습니다.</p>
-    <button id="checkButton" type="button">8개 파일 점검</button>
+    <p class="muted">그림 14개와 글꼴 5개를 읽어 파일 크기와 SHA-256이 원본과 같은지 확인합니다. 등록된 그림과 글꼴을 읽으며 학생 기록에는 접근하지 않습니다.</p>
+    <button id="checkButton" type="button">19개 파일 점검</button>
     <div id="checkStatus" class="status" role="status"></div>
     <ul id="results"></ul>
   </section>
@@ -39,7 +39,7 @@
     <h2>3. 교실 열기</h2>
     <p>Apps Script에 <code>Code.gs</code>, <code>Student.html</code>, <code>Admin.html</code>을 교체한 뒤, 웹 앱으로 배포해 주세요. 이미 배포했다면 새 버전을 적용합니다.</p>
     <ul>
-      <li>학생용: 배포한 웹 앱의 <code>/exec</code> 주소</li>
+      <li>학생용: 배포한 웹 앱의 <code>/exec?page=student</code> 주소</li>
       <li>관리자용: 같은 주소 끝에 <code>?page=admin</code> 추가</li>
     </ul>
     <p class="muted">이 파일 점검은 공개 화면 파일을 확인합니다. 실제 학생 저장과 관리자 조회는 Apps Script 배포 주소에서 확인해 주세요.</p>
@@ -76,13 +76,13 @@
       const manifestResponse = await fetch(assetBase + '/asset-manifest.json', {cache:'no-store'});
       if (!manifestResponse.ok) throw new Error('assets/asset-manifest.json을 확인해 주세요.');
       const manifest = await manifestResponse.json();
-      if (manifest.assets.length !== 8) throw new Error('파일 목록이 8개가 아닙니다.');
+      if (manifest.assets.length !== 19) throw new Error('파일 목록이 19개가 아닙니다.');
       let good = 0;
       for (const file of manifest.assets) {
         const item = document.createElement('li');
         list.append(item);
         try {
-          const response = await fetch(assetBase + '/' + encodeURIComponent(file.filename), {cache:'no-store'});
+          const response = await fetch(assetBase + '/' + file.filename.split('/').map(encodeURIComponent).join('/'), {cache:'no-store'});
           if (!response.ok) throw new Error('HTTP ' + response.status);
           const data = await response.arrayBuffer();
           if (data.byteLength !== file.bytes) throw new Error('파일 크기가 원본과 다릅니다.');
@@ -95,7 +95,7 @@
         }
       }
       status.className = 'status ' + (good === 8 ? 'ok' : 'bad');
-      status.textContent = good === 8 ? '8개 파일이 모두 원본과 같습니다. 위 주소를 Apps Script에 연결하세요.' : good + '/8개 확인. assets 폴더를 다시 확인해 주세요.';
+      status.textContent = good === 8 ? '19개 파일이 모두 원본과 같습니다. 위 주소를 Apps Script에 연결하세요.' : good + '/8개 확인. assets 폴더를 다시 확인해 주세요.';
     } catch (error) {
       status.className = 'status bad'; status.textContent = error.message;
     } finally { button.disabled = false; }

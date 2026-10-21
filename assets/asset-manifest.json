@@ -1,5 +1,5 @@
 {
-  "version": "2.1",
+  "version": "2.3.4",
   "assets": [
     {
       "filename": "fa-brands-400.74833209.woff2",
@@ -122,6 +122,127 @@
         {
           "file": "gas/Student.html",
           "original_uri_bytes": 3035607
+        }
+      ]
+    },
+    {
+      "filename": "wardrobe-v234/dress_baekje.png",
+      "mime_type": "image/png",
+      "bytes": 1760662,
+      "sha256": "0fbe30b3d7a052216693d5628a1199395d4aa530598bb9803ba5afe3d49b0aae",
+      "references": [
+        {
+          "file": "gas/Student.html"
+        }
+      ]
+    },
+    {
+      "filename": "wardrobe-v234/dress_pm2.png",
+      "mime_type": "image/png",
+      "bytes": 1736704,
+      "sha256": "3c1a8d3cc0d66063968343798ce92f1355a2e455f0bf2f655c9ae52d06d6d7aa",
+      "references": [
+        {
+          "file": "gas/Student.html"
+        }
+      ]
+    },
+    {
+      "filename": "wardrobe-v234/dress_royal.png",
+      "mime_type": "image/png",
+      "bytes": 1847218,
+      "sha256": "fc67c8f532dc22602354a15d3cc7578f675dfe3e140fbdf67f034e6aa6f8178a",
+      "references": [
+        {
+          "file": "gas/Student.html"
+        }
+      ]
+    },
+    {
+      "filename": "wardrobe-v234/dress_scholar.png",
+      "mime_type": "image/png",
+      "bytes": 1647492,
+      "sha256": "97a725ad64b43ce79da7412860f66dd923e57132a53bee0d6ea88ae4e9f195ab",
+      "references": [
+        {
+          "file": "gas/Student.html"
+        }
+      ]
+    },
+    {
+      "filename": "wardrobe-v234/dress_star.png",
+      "mime_type": "image/png",
+      "bytes": 1775491,
+      "sha256": "c40ce2f95720d620932dbb5477c8999bb176f7251f66a5920cc6e8724930d3a7",
+      "references": [
+        {
+          "file": "gas/Student.html"
+        }
+      ]
+    },
+    {
+      "filename": "wardrobe-v234/hat_beret.png",
+      "mime_type": "image/png",
+      "bytes": 1245081,
+      "sha256": "50a55a49801f3d909d606ff9626e263aa2bec50b1e5b50d50a0bf4fb1d49d299",
+      "references": [
+        {
+          "file": "gas/Student.html"
+        }
+      ]
+    },
+    {
+      "filename": "wardrobe-v234/hat_ribbon.png",
+      "mime_type": "image/png",
+      "bytes": 1986618,
+      "sha256": "55ec76e9afcac1f941b0b79219cdcef21a1a3e56c79d4661a47b73dd754c1d95",
+      "references": [
+        {
+          "file": "gas/Student.html"
+        }
+      ]
+    },
+    {
+      "filename": "wardrobe-v234/hat_tiara.png",
+      "mime_type": "image/png",
+      "bytes": 921768,
+      "sha256": "35fedde122a532b829c24639d858bb102005d110f7c2ff3d796a71bfab04bfa8",
+      "references": [
+        {
+          "file": "gas/Student.html"
+        }
+      ]
+    },
+    {
+      "filename": "wardrobe-v234/pet_book.png",
+      "mime_type": "image/png",
+      "bytes": 2401123,
+      "sha256": "cb391c612da6ffcf038075690af4d32c44f34f9424d8227c899bc4889a81eba5",
+      "references": [
+        {
+          "file": "gas/Student.html"
+        }
+      ]
+    },
+    {
+      "filename": "wardrobe-v234/pet_owl.png",
+      "mime_type": "image/png",
+      "bytes": 1649448,
+      "sha256": "a500829d92d85f024900c4b279fd232bb664f8ee08012c5f91e61f548ae33e94",
+      "references": [
+        {
+          "file": "gas/Student.html"
+        }
+      ]
+    },
+    {
+      "filename": "wardrobe-v234/pet_unicorn.png",
+      "mime_type": "image/png",
+      "bytes": 1623099,
+      "sha256": "686c1ed56db50472e12ee92000f0339d68d5d087fa7e8904a720e3f82dafdebb",
+      "references": [
+        {
+          "file": "gas/Student.html"
         }
       ]
     }
