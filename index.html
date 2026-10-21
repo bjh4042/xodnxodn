@@ -9,7 +9,7 @@
   <meta name="description" content="학생 학습 교실과 교사 관리자 화면으로 이동하는 문해력 성장 교실 첫 화면입니다.">
   <style>
     :root{--ink:#302636;--deep:#241c2c;--plum:#463048;--paper:#fbf6ef;--warm:#f4e7d4;--gold:#bf8254;--mint:#5e897e;--line:#e7d9cb;--muted:#766879;--shadow:0 18px 55px rgba(33,22,35,.12)}
-    @font-face{font-family:ClassicKorean;src:url("assets/classic-korean.4a4e1782.woff") format("woff");font-style:normal;font-weight:400;font-display:swap}
+    @font-face{font-family:ClassicKorean;src:url("assets/classic-korean.4a4e1782.woff") format("woff"),url("https://raw.githubusercontent.com/bjh4042/xodnxodn/main/assets/classic-korean.4a4e1782.woff") format("woff");font-style:normal;font-weight:400;font-display:swap}
     *{box-sizing:border-box}
     html{min-height:100%;-webkit-text-size-adjust:100%;scroll-behavior:smooth}
     body{margin:0;min-height:100vh;min-height:100dvh;font-family:ClassicKorean,Georgia,serif;color:var(--ink);background:radial-gradient(circle at 95% 5%,#eddecf 0,transparent 35%),radial-gradient(circle at 0% 85%,#e0e9e1 0,transparent 33%),#f7f1e9}
@@ -64,6 +64,17 @@
     @media(max-width:540px){.page{width:calc(100% - 24px);padding-top:13px}.brand-mark{height:38px;width:38px;border-radius:12px}.brand-name{font-size:15px}.top-pill{font-size:10px;padding:7px 9px}.top{margin-bottom:13px}.hero{border-radius:22px;padding:30px 25px;min-height:245px;align-items:flex-start}.hero-deco{display:none}.eyebrow{font-size:10px;margin-bottom:13px}.hero h1{font-size:clamp(29px,8vw,39px)}.intro{font-size:13px;margin-top:15px}.choices{margin-top:23px}.choose-top{display:block;padding:0 2px}.choose-top h2{font-size:20px}.helper{display:block;margin-top:6px}.cards{gap:12px}.card{border-radius:19px;padding:21px;min-height:245px}.card h3{font-size:22px;margin-top:13px}.card p{font-size:13px}.card .entry{min-height:55px;font-size:15px}.icon-box{width:48px;height:48px;border-radius:14px}.bottom{padding:18px 4px 20px;align-items:flex-start;flex-direction:column;font-size:11px}}
     @media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
   </style>
+
+<style id="v232-classic-typography-lock">
+/* v2.3.2 — authoritative typeface on ALL text surfaces, including dynamically
+   rendered menus, shop cards, dialogs, data tables, and form controls.
+   Font Awesome icon glyphs intentionally keep their own font, or icons break. */
+:root { --font-sans: ClassicKorean, Georgia, serif; --font-serif: ClassicKorean, Georgia, serif; --font-mono: ClassicKorean, Georgia, serif; --default-font-family: ClassicKorean, Georgia, serif; --default-mono-font-family: ClassicKorean, Georgia, serif; }
+html, body, body :where(*):not(:where(.fa,.fas,.far,.fab,.fa-solid,.fa-regular,.fa-brands,.fa-classic,.fa-sharp,.fa-duotone,.fa-light,.fa-thin)) { font-family: ClassicKorean, Georgia, serif !important; }
+body :is(button,input,textarea,select,option,optgroup), body :is(input,textarea)::placeholder { font-family: ClassicKorean, Georgia, serif !important; }
+body :is(.fa,.fas,.far,.fa-solid,.fa-regular,.fa-classic,.fa-sharp,.fa-duotone,.fa-light,.fa-thin) { font-family: "Font Awesome 6 Free" !important; }
+body :is(.fab,.fa-brands) { font-family: "Font Awesome 6 Brands" !important; }
+</style>
 </head>
 <body>
   <main class="page">
